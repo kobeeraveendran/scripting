@@ -11,7 +11,7 @@ and double-click on *start.bat*. Make sure you've specified the desired path to 
 ### Scheduling the task to occur periodically
 1. Search for **Task Scheduler** from the Start menu.
 2. In the *Actions* tab, select **Create Basic Task...**.
-3. In the pop-up window, give the task a name (and optionally, a description), such as *Clear Downloads*.
+3. In the pop-up window, give the task a name (and optionally, a description), such as "Clear Downloads".
 4. Select how frequently you want this task to be executed.
 5. Fill out the fields on the next screen as appropriate.
 6. Select an action to perform; in this case, select **Start a program**.
