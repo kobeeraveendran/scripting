@@ -1,4 +1,4 @@
 @echo off
 SETCONSOLE /hide
-start python scheduledClearv2.py ^&
+start python autoclearDownloadsv2.py ^&
 exit
