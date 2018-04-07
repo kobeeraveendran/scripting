@@ -6,7 +6,7 @@
    1. To make sure FFmpeg is installed properly and added to the PATH correctly, open the command prompt and type `ffmpeg -version`
 
 ## Using this script
-1. Download `youtube-to-mp3.py` and store it somewhere you can remember.
+1. Download `youtube-to-mp3.py` (click it above, click 'Raw', then right click > Save as. Remove the .txt file extension when doing so). Save this somewhere you can remember.
 2. Open command prompt by pressing `Windows key` + `r`, then navigate to the folder where you downloaded `youtube-to-mp3.py` by typing `cd` followed by the folder names until you get there.
 3. Once in the correct directory, type `python youtube-to-mp3.py` and press Enter.
 4. You will be prompted for a Video URL. Copy and paste this from YouTube into the command line, and press Enter.
