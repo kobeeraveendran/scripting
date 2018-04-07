@@ -13,17 +13,9 @@ link = input("Enter video URL: ")
 yt = YouTube(link)
 print("Video title: " + yt.title)
 
-# get all stream formats for the video and display them
-#videos = yt.streams.get_by_itag("140")
+# get the specific stream with audio only (mp4)
 video = yt.streams.get_by_itag(140)
 print("get stream successful")
-#i = 1
-#for videos in videos:
-#    print(str(i) + ") " + str(videos))
-#    i += 1
-
-# request stream format from user
-#videonum = int(input("Enter video stream number: "))
 
 # my default directory for downloads
 # (change this to whatever path suits your needs, i.e. "C:/Downloads")
@@ -31,7 +23,6 @@ default_directory = "D:/Downloads"
 video.download(default_directory)
 
 print("video download successful")
-#stream[videonum].download(default_directory)
 
 # get default filename
 #default_filename = stream[videonum].default_filename
@@ -40,4 +31,4 @@ mp3_filename = yt.title.replace(" ", "_") + ".mp3"
 
 subprocess.call(['ffmpeg', '-i', os.path.join(default_directory, default_filename), os.path.join(default_directory, mp3_filename)])
 
-print("Video conversion complete. For source code or issues, visit github.com/kobeeraveendran")
+print("\n\nVideo conversion complete. For source code or issues, visit github.com/kobeeraveendran")
