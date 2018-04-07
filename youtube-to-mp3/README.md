@@ -2,6 +2,7 @@
 
 ## Prerequisite software
 1. Python (3.6.x): Download at https://www.python.org/downloads
+2. Pytube: in the command line (press `Windows key` + `r`) simply type `pip install pytube`
 2. FFmpeg: Follow the instructions at https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg 
    1. To make sure FFmpeg is installed properly and added to the PATH correctly, open the command prompt and type `ffmpeg -version`
 
