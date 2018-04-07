@@ -12,3 +12,6 @@
 4. You will be prompted for a Video URL. Copy and paste this from YouTube into the command line, and press Enter.
 5. Make sure the video title displayed matches the video you copied. Wait a few seconds (usually no more than ~15-30 depending on internet speed) until you receive the "Video conversion complete..." message.
 6. To find your newly converted file, go to `C:/YouTubeDownloads`.
+
+
+Let me know if you have questions/issues either on here or on Discord (iGPhX#5860)
