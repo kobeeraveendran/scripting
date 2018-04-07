@@ -17,9 +17,9 @@ print("Video title: " + yt.title)
 video = yt.streams.get_by_itag(140)
 print("get stream successful")
 
-# my default directory for downloads
+# my default directory for downloads is D:/Downloads
 # (change this to whatever path suits your needs, i.e. "C:/Downloads")
-default_directory = "D:/Downloads"
+default_directory = "C:/Downloads"
 video.download(default_directory)
 
 print("video download successful")
