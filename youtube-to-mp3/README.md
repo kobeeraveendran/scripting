@@ -3,7 +3,7 @@
 ## Prerequisite software
 1. Python (3.6.x): Download at https://www.python.org/downloads
 2. FFmpeg: Follow the instructions at https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg
-    a. To make sure FFmpeg is installed properly and added to the PATH correctly, open the command prompt and type `ffmpeg -version`
+    *To make sure FFmpeg is installed properly and added to the PATH correctly, open the command prompt and type `ffmpeg -version`
 
 ## Using this script
 1. Download `youtube-to-mp3.py` and store it somewhere you can remember.
