@@ -1,6 +1,5 @@
 # Kobee Raveendran
 # YouTube to mp3 download script
-# (C) 2018 Kobee Raveendran
 
 import pytube
 from pytube import YouTube
