@@ -5,7 +5,7 @@
 #                                              #
 # NOTE: In order for this to work,             #
 #       enable "Less secure apps"              #
-#       at myaccount.google.com/lesssecureapps  #
+#       at myaccount.google.com/lessecureapps  #
 #                                              #
 ################################################
 
@@ -29,7 +29,7 @@ def send_email(subject, message):
     except:
         print('Email failed to send')
 
-subject = "Initial testing"
-message = "TESTYTEST"
+subject = input('Subject: ')
+message = input('Message: ')
 
 send_email(subject, message)
