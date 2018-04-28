@@ -5,7 +5,7 @@
 #                                              #
 # NOTE: In order for this to work,             #
 #       enable "Less secure apps"              #
-#       at myaccount.google.com/lessecureapps  #
+#       at myaccount.google.com/lesssecureapps #
 #                                              #
 ################################################
 
