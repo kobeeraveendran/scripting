@@ -7,4 +7,4 @@
 5. When prompted, enter a subject and message body.
 6. Press enter. If the message failed to send, make sure you have less secure apps* enabled.
 
-*To enable less secure apps, go to https://myaccounts.google.com/lesssecureapps
+*To enable less secure apps, go to https://myaccount.google.com/lesssecureapps
