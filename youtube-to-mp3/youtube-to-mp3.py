@@ -18,7 +18,7 @@ video = yt.streams.get_by_itag(140)
 
 # create default directory to store downloaded files in
 # (change this to whatever path suits your needs, i.e. "C:/Users/[name]/Downloads")
-default_directory = "C:/YouTubeDownloads"
+default_directory = "D:/YouTubeDownloads"
 
 if not os.path.exists(default_directory):
     os.makedirs(default_directory)
@@ -29,7 +29,7 @@ video.download(default_directory)
 default_filename = video.default_filename
 mp3_filename = yt.title.replace(" ", "_") + ".mp3"
 
-subprocess.call(['ffmpeg', '-i', os.path.join(default_directory, default_filename), os.path.join(default_directory, mp3_filename)])
+subprocess.call(['ffmpeg', '-i', os.path.join(default_directory, default_filename), os.path.join(default_directory, mp3_filename)], shell = True)
 
 # deletes mp4 file after conversion
 os.remove(os.path.join(default_directory, default_filename))
