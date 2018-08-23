@@ -5,6 +5,7 @@ import pytube
 from pytube import YouTube
 import os
 import subprocess
+import sys
 
 # get video link from user
 link = input("Enter video URL: ")
@@ -22,6 +23,10 @@ default_directory = "D:/YouTubeDownloads"
 
 if not os.path.exists(default_directory):
     os.makedirs(default_directory)
+
+if video is None:
+    print("\n\nERROR: Unable to use this video (protected). Please try an alternative link.")
+    sys.exit()
 
 video.download(default_directory)
 
